@@ -1,1 +1,3 @@
-print("Hello, world!")
+from fastapi import FastAPI
+
+app = FastAPI()  # <--- THIS is critical
